@@ -3,6 +3,9 @@ import './App.css';
 import SayHello from './SayHello';
 import Hello from './Hello';
 import { Fragment } from 'react';
+import ChangeEvent from './component/chap01_event/ChangeEvent';
+import ClickEvent from './component/chap01_event/ClickEvent';
+import SubmitEvent from './component/chap01_event/SubmitEvent';
 
 
 
@@ -28,7 +31,8 @@ function App() {
   return (
     // <Fragment>
     <>
-      { looping() }
+      <SubmitEvent />
+      
     </>
     // </Fragment>
   );
