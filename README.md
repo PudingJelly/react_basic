@@ -3,9 +3,9 @@
 1. node.js 설치 (LTS 버전으로)
 
 2. create-react-app 설치 (최초 1번)
-
+```
 $ npm install -g create-react-app
-
+```
 3. react 프로젝트 생성
 
 4. react 프로젝트 실행
